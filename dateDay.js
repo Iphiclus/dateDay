@@ -1,3 +1,5 @@
+var today = new Date();
+
 function getTheDay() {
   var d = new Date();
   var weekday = new Array(7);
@@ -12,7 +14,7 @@ function getTheDay() {
   var n = weekday[d.getDay()];
   return n;
 }
-var today = new Date();
+
 var hour = today.getHours();
 var minute = today.getMinutes();
 var prepand = hour >= 12 ? " PM " : " AM ";
