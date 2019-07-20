@@ -37,15 +37,3 @@ var prepand = hour >= 12 ? " PM " : " AM ";
   }
 
 let printMe = getTheDay();
-console.log("Today is : ", printMe);
-
-console.log(
-  "Current time is : " +
-    today.getHours() +
-    ":" +
-    today.getMinutes() +
-    ":" +
-    today.getSeconds() +
-    ":" +
-    prepand
-);
